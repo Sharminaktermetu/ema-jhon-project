@@ -1,0 +1,13 @@
+.products{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+    width: 1170px;
+    margin: auto;
+}
+.cards{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}

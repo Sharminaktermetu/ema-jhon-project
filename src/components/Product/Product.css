@@ -1,0 +1,25 @@
+.single-product{
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    position: relative;
+}
+.single-product img{
+    width: 286px;
+    height: 286px;
+
+}
+.cart-btn{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: blanchedalmond;
+    border-radius: 8px;
+    border: none;
+}
+.cart-btn:hover{
+    background: lightcoral;
+}
+.product-info{
+    margin: 10px;
+}
