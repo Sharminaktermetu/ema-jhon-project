@@ -11,11 +11,11 @@ const addToCart =props.addToCart;
             <img  src={img} alt=""  width="200px"/>
             <div className='product-info'>
             <p>{name}</p>
-            <p>Price: ${price}</p>
+            <p>Price:${price}</p>
             <p>Seller: {seller}</p>
             <p>Rating: {ratings}</p>
             </div>
-            <button onClick={addToCart} className='cart-btn'>Add to cart</button>
+            <button onClick={()=>addToCart(props.product)} className='cart-btn'>Add to cart</button>
         </div>
     );
 };
